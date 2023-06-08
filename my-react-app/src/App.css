@@ -5,21 +5,40 @@
 body{
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom right, #21A393, #0A073F);
   background-repeat: no-repeat;
+  overflow-y:hidden;
 
 }
+
+#mod{
+  display: hide;
+  margin-top: -21vw;
+}
+
+#bod{
+  background: #F8ECBE;
+  
+
+}
+
+#close{
+  background: #F8ECBE;
+
+}
+
+
 .module{
   /* width: 100vw; */
   height: 47.59vw;
 }
 
 .module img{
- margin-top: 15vw;
+ margin-top: -10vw;
  margin-left: 2vw;
 }
 
@@ -64,5 +83,9 @@ body{
     display: block;
     margin-top: 15vw;
     margin-left: 30vw;
+   }
+
+   .module{
+    margin-top: -140vw;
    }
 }
